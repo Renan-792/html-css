@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+tbody > tr:nth-child(2n){
+background-color: lightcyan;
+}
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td,th {
+    padding: 7px;
+    border: 1px solid black;
+}
+td.num {
+    text-align: right;
+}
+
+thead, tfoot {
+    background-color: steelblue;
+    color: aliceblue;
+}
+caption {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
